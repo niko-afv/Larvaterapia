@@ -17,7 +17,7 @@
 				background: #006d9c;
 			}
 			div h1{
-				font-family: cursive;
+				font-family: Helvetica;
 			}
 		</style>
 
