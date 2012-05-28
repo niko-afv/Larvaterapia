@@ -1,13 +1,12 @@
 /*
-	   estilos.css
-	   Larvaterapia
-			   Created by Nicolàs Fredes v. on 2012-05-27.
-	   Copyright 2012 Nicolàs Fredes v.. All rights reserved.
-	*/
-	
+    estilos.css
+	Larvaterapia
+	Created by Nicolàs Fredes V. on 2012-05-27.
+	Copyright 2012 Nicolàs Fredes v.. All rights reserved.
+*/
 
 body{
-	
+
 }
 .main{
 
@@ -15,20 +14,50 @@ body{
 .main-content{
 
 }
+
+/***    Begin Header  ***/
 header{
 	background: url('../img/png/home/barra_menu.png');
-	height: 77px;
+	height: 77px; 
 }
+#logo{
+    background: url('../img/png/home/logo.png');
+    background-repeat: no-repeat;
+    height: 63px;
+    margin: 10px 0 0 0;
+}
+#menu{
+    font-size: 12px;
+    color: #ffffff;
+    margin: 30px 0 0 20px;
+}
+
+/***    End Header  ***/
+
+/***    Begin Main-Content  ***/
+
+/*  Banner  */
 section#banner{
     background: url('../img/png/home/fondos_banner.jpg');
-    height: 506px;
+    height: 432px;
     position: relative;
 }
-section#content div.separator{
+#banner-cont{
+    background: url('../img/png/banner/banner.png');
+}
+/*  Banner  */
+div.separator{
     background: url('../img/png/home/separador.png');
     height: 7px;
 }
+
+/***    Begin Footer    ***/
 footer{
     background: url('../img/png/home/fondos_banner.jpg');
     height: 356px;
 }
+#footer-cont{
+    margin-top: 70px;
+}
+
+/***    End Footer    ***/
