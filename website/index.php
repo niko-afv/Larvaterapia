@@ -1,5 +1,7 @@
-<?php include('header.php'); ?>
+<?php include('base/header.php'); ?>
 
-<?php include('content.php'); ?>            
+<section id="main-content">
+    <?php include('base/banner.php'); ?>
+</section><!--  Section main-content    -->
 
-<?php include('footer.php'); ?>
+<?php include('base/footer.php'); ?>
