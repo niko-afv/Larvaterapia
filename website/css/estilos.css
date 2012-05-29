@@ -16,7 +16,7 @@ body{
 }
 
 /***    Begin Header  ***/
-header{
+#header{
 	background: url('../img/png/home/barra_menu.png');
 	height: 77px; 
 }
@@ -48,7 +48,7 @@ header{
 /***    Begin Main-Content  ***/
 
 /*  Banner  */
-section#banner{
+#banner{
     background: url('../img/png/home/fondos_banner.jpg');
     height: 432px;
     position: relative;
@@ -63,7 +63,7 @@ div.separator{
 }
 
 /***    Begin Footer    ***/
-footer{
+#footer{
     background: url('../img/png/home/fondos_banner.jpg');
     height: 356px;
 }
