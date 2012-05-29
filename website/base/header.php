@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html lang="es">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -13,8 +13,8 @@
         
     </head>
     <body>
-        <section id="main">
-            <header>
+        <div id="main">
+            <div id="header">
                 
                 <div class="container">
                     <div class="span-2">&nbsp;</div>
@@ -37,4 +37,4 @@
                     </div>
                 </div><!--  Div contanier-->
                 
-            </header><!--   Footer  -->
+            </div><!--   Header  -->

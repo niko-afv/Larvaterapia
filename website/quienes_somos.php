@@ -1,12 +1,12 @@
 <?php include('base/header.php'); ?>
 
 
-<section id="main-content">
+<div id="main-content">
     <?php include('base/banner.php'); ?>
-    <section id="content">
+    <div id="content">
         <div class="separator">&nbsp;</div>
         <div class="container">
-            <section id="q-somos" class="prepend-3 span-19 append-2 last">
+            <div id="q-somos" class="prepend-3 span-19 append-2 last">
                 
                 <div id="q-somos-cont" class="prepend-top span-18 last">
                     <h2 class="span-6 append-12">Quienes somos</h2>
@@ -41,9 +41,9 @@
                 <div id="q-somos-img" class="span-19">
                     &nbsp;
                 </div>
-            </section>
+            </div>
         </div>
-    </section><!--  Section content -->
+    </div><!--  Section content -->
     
 </section><!--  Section main-content    -->
 <?php include('base/footer.php'); ?>
