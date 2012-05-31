@@ -25,13 +25,13 @@
                     </p>
                     
                     <h3 class="span-2 append-17">MISIÓN</h3>
-                    <p class="span-19">
+                    <p class="span-19 cerca-tit">
                         Nuestra misión es entregar productos y/o terapias a partir de insectos, que permitan suplir necesidades de la industria médica,
                         veterinaria, ganadera y forestal.
                     </p>
                     
                     <h3 class="span-2 append-17">VISIÓN</h3>
-                    <p class="span-19">
+                    <p class="span-19 cerca-tit">
                         Queremos ser la empresa lider de biotecnología en insectos. Lograremos estusiasmar a nuestros clientes mediante la
                         creación de productos biotecnológicos en base a insectos que sean amigables con el medio ambiente y que
                         permitirán solucionar problemas de personas así como de empresas a nivel nacional. 

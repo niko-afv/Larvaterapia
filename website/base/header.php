@@ -21,15 +21,18 @@
                     <div id="logo" class="span-6">
                         <a href=".">Home</a>
                     </div>
-                    <div id="menu" class="prepend-top span-13">
+                    <div id="menu" class="prepend-top span-15">
                         <div class="menu-item span-3">
                             <a href="quienes_somos.php" >¿Quienes somos?</a>
                         </div>
                         <div class="menu-item span-2">
-                            Larvaterapia
+                            <a href="larvaterapia.php">Larvaterapia</a>
                         </div>
                         <div class="menu-item span-4">
                             Profesionales de la Salud
+                        </div>
+                        <div class="span-2">
+                            Contacto
                         </div>
                         <div class="menu-item span-4 last">
                             Personas a Tratarse
