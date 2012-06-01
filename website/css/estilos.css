@@ -142,7 +142,57 @@ div.separator{
 }
 /***    End Larvaterapia    ***/
 
+/******************************/
 
+/***    Begin Clientes  ***/
+.clientes-tit h2{
+    font-family: "BreeRegular";
+    color: #006d9c;
+    font-weight: bold;
+    font-size: 30px;
+}
+.clientes-cont{
+    background: #e6e6e6;
+    height: 1030px;
+    margin: 0 0 100px 0;
+}
+.clientes-cont h3{
+    font-family: "BreeRegular";
+    font-size: 18px;
+    color: #006d9c;
+    margin-top: 10px;
+}
+.esquina{
+    background: url('../img/png/clientes/esquina_barra_link.png');
+    background-repeat: no-repeat; 
+    width: 12px;
+    height: 20px;
+    margin: -5px 0 0 -10px;
+}
+.clientes-item{
+    background: url('../img/png/clientes/barras_links.png');
+    background-repeat: repeat-y;
+    height: 83px;
+    margin: 0 0 20px -10px;
+    color: #ffffff;
+}
+.item-cont{
+    margin: 8px 0 0 -17px;
+}
+.clientes-cont span{
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    
+}
+.clientes-cont p{
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    
+}
+.img-item{
+    margin: 8px 0 0 30px;
+}
+/***    End Clientes    ***/
 
 
 

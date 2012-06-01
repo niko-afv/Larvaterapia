@@ -29,7 +29,7 @@
                             <a href="larvaterapia.php">Larvaterapia</a>
                         </div>
                         <div class="menu-item span-4">
-                            Profesionales de la Salud
+                            <a href="clientes.php">Profesionales de la Salud</a>
                         </div>
                         <div class="span-2">
                             Contacto
