@@ -4,13 +4,20 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <title>Larvaterapia</title>
         
-        <!--    Begin StyleSheet-->
+        <!--    Begin StyleSheet    -->
         <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen" charset="utf-8"/>
         <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen" charset="utf-8"/>
         <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print" charset="utf-8"/>
         <link rel="stylesheet" href="css/estilos.css" type="text/css" media="screen" charset="utf-8"/>
-        <!--    End StyleSheet-->
+        <!--    End StyleSheet  -->
         
+        <!--    Begin JQuery Script -->
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery.simplemodal.1.4.2.min.js"></script>
+        <script src="js/validation/jquery.validate.min.js"></script>
+        <script src="js/validation/additional-methods.min.js"></script>
+        <script src="js/main.js"></script>
+        <!--    End JQuery Script -->
     </head>
     <body>
         <div id="main">
@@ -31,11 +38,11 @@
                         <div class="menu-item span-4">
                             <a href="clientes.php">Profesionales de la Salud</a>
                         </div>
-                        <div class="span-2">
-                            Contacto
-                        </div>
                         <div class="menu-item span-4 last">
-                            Personas a Tratarse
+                            <a href="pacientes.php">Personas a Tratarse</a>
+                        </div>
+                        <div id="last-item" class="menu-item span-2 last">
+                            <a href="javascript:void(0)">Contacto</a>
                         </div>
                     </div>
                 </div><!--  Div contanier-->

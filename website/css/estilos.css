@@ -4,10 +4,6 @@
 	Created by Nicolàs Fredes V. on 2012-05-27.
 	Copyright 2012 Nicolàs Fredes v.. All rights reserved.
 */
-
-
-
-
 @font-face {
     font-family: 'BreeRegular';
     src: url('fonts/BreeRegular.otf');
@@ -16,9 +12,6 @@
     font-family: 'Myriad Pro';
     src: url('fonts/Myriad Pro Regular.ttf');
 }
-
-
-
 body{
 
 }
@@ -57,8 +50,13 @@ body{
     color: #ffffff;
     text-decoration: none;
 }
+#last-item{
+    margin-left: -15px;
+}
 
 /***    End Header  ***/
+
+/*****************************************************************/
 
 /***    Begin Main-Content  ***/
 
@@ -88,8 +86,7 @@ div.separator{
 
 /***    End Footer    ***/
 
-
-
+/****************************************************************/
 
 /***    Begin Quienes somos   ***/
 #q-somos{
@@ -121,7 +118,7 @@ div.separator{
 }
 /***    End Quienes somos   ***/
 
-/******************************/
+/*************************************************************/
 
 /***    Begin Larvaterapia  ***/
 .larvaterapia-cont h2{
@@ -145,7 +142,7 @@ div.separator{
 }
 /***    End Larvaterapia    ***/
 
-/******************************/
+/*****************************************************************/
 
 /***    Begin Clientes  ***/
 .clientes-tit h2{
@@ -165,7 +162,7 @@ div.separator{
     color: #006d9c;
     margin-top: 10px;
 }
-.esquina{
+.clientes-cont .esquina{
     background: url('../img/png/clientes/esquina_barra_link.png');
     background-repeat: no-repeat; 
     width: 12px;
@@ -179,7 +176,7 @@ div.separator{
     margin: 0 0 20px -10px;
     color: #ffffff;
 }
-.item-cont{
+.clientes-item .item-cont{
     margin: 8px 0 0 -17px;
 }
 .clientes-cont span{
@@ -192,16 +189,101 @@ div.separator{
     font-family: "Myriad Pro";
     
 }
-.img-item{
+.clientes-item .img-item{
     margin: 8px 0 0 30px;
 }
 /***    End Clientes    ***/
 
+/*****************************************************************/
 
+/***    Begin Pacientes  ***/
+.pacientes-tit h2{
+    font-family: "BreeRegular";
+    color: #006d9c;
+    font-weight: bold;
+    font-size: 30px;
+}
+.pacientes-cont{
+    background: #e6e6e6;
+    height: 250px;
+    margin: 0 0 100px 0;
+}
+.pacientes-cont h3{
+    font-family: "BreeRegular";
+    font-size: 18px;
+    color: #006d9c;
+    margin-top: 10px;
+}
+.pacientes-cont .esquina{
+    background: url('../img/png/clientes/esquina_barra_link.png');
+    background-repeat: no-repeat; 
+    width: 12px;
+    height: 20px;
+    margin: -5px 0 0 -10px;
+}
+.pacientes-item{
+    background: url('../img/png/clientes/barras_links.png');
+    background-repeat: repeat-y;
+    height: 50px;
+    margin: 0 0 20px -10px;
+    color: #ffffff;
+}
+.pacientes-item .item-cont{
+    margin: 13px 0 0 -17px;
+}
+.pacientes-cont span{
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    
+}
+.pacientes-cont p{
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    
+}
+.pacientes-item .img-item{
+    margin: 8px 0 0 30px;
+}
+/***    End Pacientes    ***/
 
+/***********************************************************/
 
-
-
-
-
-
+/***    Begin Contacto  ***/
+#contact-form{
+    background: url('../img/png/contacto/fondo.png');
+    width: 551px;
+    height: 245px;
+    position: relative;
+    display: none;
+}
+#contact-form form img{
+    position: absolute;
+    z-index: 1;
+}
+#contact-form form{
+    display: block;
+    position: absolute;
+    top: 73px;
+    right: -30px;
+}
+#contact-form form input{
+    height: 17px;
+    margin-top: -2px;
+}
+#contact-form form textarea{
+    height: 55px;    
+    z-index: 100;
+}
+#contact-form form button{
+    position: absolute;
+    top: 135px;
+    right: 70px;
+    height: 30px;
+}
+#msg{
+    position: absolute;
+    bottom : -8px;
+    left : 30px;
+    display: none;
+}
+/***    End Contacto  ***/
