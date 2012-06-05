@@ -13,7 +13,7 @@
     src: url('fonts/Myriad Pro Regular.ttf');
 }
 body{
-
+    background-color: #0d77a7;
 }
 .main{
 
@@ -78,6 +78,9 @@ body{
 div.separator{
     background: url('../img/png/home/separador.png');
     height: 7px;
+}
+#content{
+    background: #ffffff;
 }
 
 /***    Begin Footer    ***/
