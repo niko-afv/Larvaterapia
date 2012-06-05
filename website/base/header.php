@@ -16,6 +16,7 @@
         <script src="js/jquery.simplemodal.1.4.2.min.js"></script>
         <script src="js/validation/jquery.validate.min.js"></script>
         <script src="js/validation/additional-methods.min.js"></script>
+        <script src="js/jquery.bxSlider.min.js"></script>
         <script src="js/main.js"></script>
         <!--    End JQuery Script -->
     </head>

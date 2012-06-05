@@ -53,7 +53,6 @@ body{
 #last-item{
     margin-left: -15px;
 }
-
 /***    End Header  ***/
 
 /*****************************************************************/
@@ -66,8 +65,14 @@ body{
     height: 432px;
     position: relative;
 }
+#banner .container #slider div img{
+    width: 897px;
+}
 #banner-cont{
     background: url('../img/png/banner/banner.png');
+}
+.bx-prev, .bx-next{
+    display: none;
 }
 /*  Banner  */
 div.separator{
@@ -274,10 +279,10 @@ div.separator{
     height: 55px;    
     z-index: 100;
 }
-#contact-form form button{
+#contact-form button{
     position: absolute;
-    top: 135px;
-    right: 70px;
+    top: 208px;
+    right: 60px;
     height: 30px;
 }
 #msg{

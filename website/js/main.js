@@ -1,4 +1,9 @@
 $(document).ready(function(){
+    
+    $('#slider').bxSlider({
+        auto: true
+    });
+    
     var contacto = $("#contactoBtn");
     var form = $("#contact-form form");
     var contactForm = $("#contact-form");
@@ -47,7 +52,6 @@ $(document).ready(function(){
     $("#contactoBtn").click(function(){
         sacarBordes();
         var valor = validar();
-        alert(valor);     
         if ( valor != 1){
             $(valor).css("border","1px solid red");                   
             $("#msg").fadeIn(1000, function(){
