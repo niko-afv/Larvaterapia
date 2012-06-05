@@ -1,7 +1,8 @@
 $(document).ready(function(){
     
     $('#slider').bxSlider({
-        auto: true
+        auto: true,
+        speed: 1000
     });
     
     var contacto = $("#contactoBtn");
