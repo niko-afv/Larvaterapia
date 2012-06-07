@@ -69,7 +69,26 @@ $(document).ready(function(){
                 setTimeout("$('#msg').fadeOut(1000)",10000);
             });
         }else{
-            form.submit();
+            //form.submit();
+            var nombre = $("#nombre").val();
+            var apellido = $("#apellido").val();
+            var email = $("#email").val();
+            var comentario = $("#comentario").val();
+            $.post('form.php',{
+                'nombre'     : nombre,
+                'apellido'   : apellido,
+                'email'      :email,
+                'comentario' :comentario},
+                function(data){
+                    if(data == 1){
+                        $("#msg").removeClass("error");
+                        $("#msg").addClass("success");
+                        $("#msg").html("Nos contactaremos con usted");
+                        $("#msg").fadeIn(1000, function(){
+                            setTimeout("$(location).attr('href','.')",2000);
+                        });
+                }
+            })
         }
         
     });

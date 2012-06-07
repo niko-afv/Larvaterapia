@@ -5,7 +5,6 @@
         <input type="text" name="apellido" value="" id="apellido" class="input prepend-1 span-6 append-1 last" />
         <input type="text" name="email" value="" id="email" class="input prepend-1 span-6 append-1 last" />
         <textarea name="comentario" id="comentario" class="input prepend-1 span-6 append-1 last"></textarea>
-        
     </form>
     <button name="contacto" id="contactoBtn" type="button">Enviar</button>
     <span id="msg" class="error">Todos los campos son obligatorios</span>
