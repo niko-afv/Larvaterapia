@@ -145,7 +145,30 @@ div.separator{
     font-size: 14px;
     font-family: "Myriad Pro";
 }
+#larvaterapia-img div{
+    position: relative;
+    margin-bottom: 30px; 
+}
+#larvaterapia-img div p#first{
+    bottom: -626;
+    position: absolute;
+    left: -5px;
+    width: 437px;
+    text-align: center;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+}
+#larvaterapia-img div p#second{
+    bottom: -626px;
+    position: absolute;
+    right: 25px;
+    width: 463px;
+    text-align: center;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+}
 #larvaterapia-img img{
+    margin-bottom: 50px;    
     height: 303px;
 }
 /***    End Larvaterapia    ***/

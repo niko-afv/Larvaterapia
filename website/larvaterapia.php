@@ -27,8 +27,14 @@
                     </P>
                 </div>    
                 <div id="larvaterapia-img">
-                    <img class="span-11 append-1" src="./img/png/larvaterapia/foto01.png" title="Se realizó un tratamiento larval más curaciones tradicionales en un periodo de 30 días."    />
-                    <img class="span-11 append-1 last" src="./img/png/larvaterapia/foto02.png" title="Se realizaron dos tratamientos larvales más curaciones tradicionales en un periodo de 3 meses."   />
+                    <div>
+                        <img class="span-11 append-1" src="./img/png/larvaterapia/foto01.png" title=""    />
+                        <p id="first">Se realizó un tratamiento larval más curaciones tradicionales en un periodo de 30 días.</p>
+                    </div>
+                    <div>
+                        <img class="span-11 append-1 last" src="./img/png/larvaterapia/foto02.png" title=""   />
+                        <p id="second">Se realizaron dos tratamientos larvales más curaciones tradicionales en un periodo de 3 meses.</p>
+                    </div>
                 </div>
                 
                 <div class="larvaterapia-cont prepend-top prepend-3 span-18 append-3 last">
