@@ -22,7 +22,9 @@
                             </div>
                             <div class="item-cont span-17">
                                 <p>
-                                    Resumen Larvaterapia:
+                                   <a href="http://www.youtube.com/watch?v=YUVbzfzktD0&feature=context&context=C372d217ADOEgsToPDskK-ppALj2G4zxKevp57XtfT" target="_blank">
+                                       Resumen Larvaterapia:
+                                   </a>
                                 </p>
                             </div>
                     </div>
@@ -37,10 +39,14 @@
                                     Programa Diagnóstico Canal 13:
                                 </p>
                                 <p class="span-2">
-                                    Video 1
+                                    <a href="http://www.youtube.com/watch?v=wUoe3sR_6IU&context=C372d217ADOEgsToPDskK-ppALj2G4zxKevp57XtfT" target="_blank">
+                                        Video 1
+                                    </a>
                                 </p>
                                 <p class="span-2 last">
-                                    Video 2
+                                    <a href="http://www.youtube.com/watch?v=Uxge2ilekK4&feature=context&context=C372d217ADOEgsToPDskK-ppALj2G4zxKevp57XtfT" target="_blank">
+                                        Video 2
+                                    </a>
                                 </p>
                             </div>
                     </div>

@@ -66,7 +66,7 @@ body{
     position: relative;
 }
 #banner .container #slider div img{
-    width: 897px;
+    width: 830px;
 }
 #banner-cont{
     background: url('../img/png/banner/banner.png');
@@ -210,10 +210,15 @@ div.separator{
 .clientes-item .item-cont{
     margin: 8px 0 0 -17px;
 }
-.clientes-cont span{
-    font-size: 14px;
-    font-family: "Myriad Pro";
-    
+.clientes-cont span a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Myriad Pro";    
+}
+.clientes-cont span a:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 .clientes-cont p{
     font-size: 14px;
@@ -267,10 +272,15 @@ div.separator{
     font-family: "Myriad Pro";
     
 }
-.pacientes-cont p{
+.pacientes-cont p a{
+    color: #ffffff;
     font-size: 14px;
     font-family: "Myriad Pro";
-    
+    text-decoration: none;
+}
+.pacientes-cont p a:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 .pacientes-item .img-item{
     margin: 8px 0 0 30px;
