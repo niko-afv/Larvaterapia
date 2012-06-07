@@ -66,7 +66,7 @@ body{
     position: relative;
 }
 #banner .container #slider div img{
-    width: 897px;
+    width: 830px;
 }
 #banner-cont{
     background: url('../img/png/banner/banner.png');
@@ -145,7 +145,30 @@ div.separator{
     font-size: 14px;
     font-family: "Myriad Pro";
 }
+#larvaterapia-img div{
+    position: relative;
+    margin-bottom: 30px; 
+}
+#larvaterapia-img div p#first{
+    bottom: -626;
+    position: absolute;
+    left: -5px;
+    width: 437px;
+    text-align: center;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+}
+#larvaterapia-img div p#second{
+    bottom: -626px;
+    position: absolute;
+    right: 25px;
+    width: 463px;
+    text-align: center;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+}
 #larvaterapia-img img{
+    margin-bottom: 50px;    
     height: 303px;
 }
 /***    End Larvaterapia    ***/
@@ -187,10 +210,15 @@ div.separator{
 .clientes-item .item-cont{
     margin: 8px 0 0 -17px;
 }
-.clientes-cont span{
-    font-size: 14px;
-    font-family: "Myriad Pro";
-    
+.clientes-cont span a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Myriad Pro";    
+}
+.clientes-cont span a:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 .clientes-cont p{
     font-size: 14px;
@@ -244,10 +272,15 @@ div.separator{
     font-family: "Myriad Pro";
     
 }
-.pacientes-cont p{
+.pacientes-cont p a{
+    color: #ffffff;
     font-size: 14px;
     font-family: "Myriad Pro";
-    
+    text-decoration: none;
+}
+.pacientes-cont p a:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 .pacientes-item .img-item{
     margin: 8px 0 0 30px;
