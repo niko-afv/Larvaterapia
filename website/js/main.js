@@ -1,7 +1,18 @@
 $(document).ready(function(){
     
     $('#slider').bxSlider({
-        auto: true
+        mode: 'horizontal',
+        infiniteLoop: true,
+        startingSlide: 0,
+        speed: 2000,
+        pause: 8000,
+        auto: true,
+        pager: false,
+        //controls: true,
+        /*prevImage: './img/flecha_dr.png',
+        nextImage: './img/flecha_iz.png'*/
+        //prevText: ' ',
+        //nextText: ' '
     });
     
     var contacto = $("#contactoBtn");
