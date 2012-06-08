@@ -62,7 +62,7 @@ body{
 /*  Banner  */
 #banner{
     background: url('../img/png/home/fondos_banner.jpg');
-    height: 432px;
+    height: 399px;
     position: relative;
 }
 #banner .container #slider div img{
@@ -152,18 +152,18 @@ div.separator{
 #larvaterapia-img div p#first{
     bottom: -626;
     position: absolute;
-    left: -5px;
+    left: 0;
     width: 437px;
-    text-align: center;
+    text-align: left;
     font-family: "Myriad Pro";
     font-size: 12px;
 }
 #larvaterapia-img div p#second{
     bottom: -626px;
     position: absolute;
-    right: 25px;
+    right: 7px;
     width: 463px;
-    text-align: center;
+    text-align: left;
     font-family: "Myriad Pro";
     font-size: 12px;
 }
