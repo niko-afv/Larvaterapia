@@ -13,7 +13,7 @@
                     <p class="span-18">
                         Somos un laboratorio formado por profesionales en el área de la biotecnología, agronomía y entomología,
                         dedicado a la investigación de insectos. Como principal objetivo buscamos implementar terapias o tratamientos
-                        en base a insectos Chilenos, además de generar subproductos biotecnológicos de los mismos, Como empresa nos
+                        en base a insectos Chilenos, además de generar subproductos biotecnológicos de los mismos. Como empresa nos
                         enfocamos en generar soluciones entomológicas-biotecnológicas a problemas que existan en empresas de diferentes sectores.
                     </p>
                     

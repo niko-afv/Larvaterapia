@@ -13,33 +13,12 @@ $comentario = $_POST['comentario'];
 
 //echo "pasa";*/
 
-
-
-
-
-
-
-
-
-
 $html = "
  <h3>Contacto - Larvaterapia</h3>
  <br    /><strong>Nombre:</strong> " . $nombre . " " . $apellido .
 "<br    /><strong>E-mail:</strong> " . $email .
 "<br    /><strong>Comentario:</strong>  " . $comentario .
-"
-
-
-";
-
-
-
-
-
-
-
-
-
+"";
 
 date_default_timezone_set('America/Santiago'); //Se define la zona horaria
 require_once('class/class.phpmailer.php'); //Incluimos la clase phpmailer
@@ -54,8 +33,13 @@ try {
                          //Gmail o de GoogleApps
   $nombre_emisor="Nicolas Fredes";               //Nombre de quien envía el correo
   $contrasena="RitmoyrimA";          //contraseña de tu cuenta en Gmail
-  $correo_destino="francisco.calleja@hotmail.es";      //Correo de quien recibe
+  //$correo_destino="francisco.calleja@hotmail.es";      //Correo de quien recibe
+  $correo_destino="fcalleja87@gmail.com ";      //Correo de quien recibe
   $nombre_destino="Francisco Calleja";                //Nombre de quien recibe
+  $correo_destino2="augartepena@gmail.com";      //Correo de quien recibe
+  $nombre_destino2="A. Ugarte Peña";                //Nombre de quien recibe
+  $correo_destino3="callejahnos@gmail.com";      //Correo de quien recibe
+  $nombre_destino3="Calleja Hmnos";                //Nombre de quien recibe
 //--------------------------------------------------------
   //$mail->SMTPDebug  = 2;                     // Habilita información SMTP (opcional para pruebas)
                                              // 1 = errores y mensajes
@@ -70,6 +54,8 @@ try {
   $mail->AddReplyTo($correo_emisor, $nombre_emisor);
   //La direccion a donde mandamos el correo
   $mail->AddAddress($correo_destino, $nombre_destino);
+  $mail->AddAddress($correo_destino2, $nombre_destino2);
+  $mail->AddAddress($correo_destino3, $nombre_destino3);
   //De parte de quien es el correo
   $mail->SetFrom($correo_emisor, $nombre_emisor);
   //Asunto del correo
