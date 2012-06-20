@@ -29,10 +29,10 @@ $mail->IsSMTP(); // Se especifica a la clase que se utilizará SMTP
  
 try {
 //------------------------------------------------------
-  $correo_emisor="niko.afv@gmail.com";     //Correo a utilizar para autenticarse
+  $correo_emisor="larvaterapiachile@gmail.com";     //Correo a utilizar para autenticarse
                          //Gmail o de GoogleApps
   $nombre_emisor="Nicolas Fredes";               //Nombre de quien envía el correo
-  $contrasena="RitmoyrimA";          //contraseña de tu cuenta en Gmail
+  $contrasena="isikechile2012";          //contraseña de tu cuenta en Gmail
   //$correo_destino="francisco.calleja@hotmail.es";      //Correo de quien recibe
   $correo_destino="fcalleja87@gmail.com ";      //Correo de quien recibe
   $nombre_destino="Francisco Calleja";                //Nombre de quien recibe
