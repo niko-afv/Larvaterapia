@@ -23,12 +23,13 @@
                             <div class="item-cont span-17">
                                 <span class="">
                                     <a href="http://www.imbiomed.com/1/1/articulos.php?method=showDetail&id_articulo=79218&id_seccion=3848&id_ejemplar=7846&id_revista=232" target="_blank">
-                                        Jazzmin Arrivillaga, Jaime Rodríguez, Milagros Oviedo.
+                                        Arrivillaga J, Rodríguez J y Oviedo M.
                                     </a>
                                 </span>
-                                <p class="">Evaluación preliminar en un modelo animal de la terapia
+                                <p class="">
+                                    Evaluación preliminar en un modelo animal de la terapia
                                     con larvas de Lucilia sericata para el tratamiento de la
-                                    leishmaniasis cutánea. Biomédica 2008;28:305-10
+                                    leishmaniasis cutánea. Biomédica 2008;28:305-10.
                                 </p>
                             </div>
                     </div>
@@ -45,7 +46,7 @@
                                     </a>
                                 </span>
                                 <p class="">
-                                    Maggot debridement therapy in chronic wound care. Hong Kong Med J. 2007 Oct;13(5):382-6
+                                    Maggot debridement therapy in chronic wound care. Hong Kong Med J. 2007 Oct;13(5):382-6.
                                 </p>
                             </div>
                     </div>
@@ -58,7 +59,7 @@
                             <div class="item-cont span-17">
                                 <span class="">
                                     <a href="http://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0717-77122006000200010" target="_blank">
-                                        GUEROA LUIS, UHEREK FERNANDO, YUSEF PEDRO, LÓPEZ LILIANA, FLORES JORDANA.
+                                        Figueroa L, Uherek F, Yusef P, López L, Flores J.
                                     </a>
                                 </span>
                                 <p class="">
@@ -83,7 +84,7 @@
                                     Promotion of Human Dermal Fibroblast Migration, Matrix
                                     Remodelling and Modification of Fibroblast Morphology
                                     within a Novel 3D Model by Lucilia sericata Larval Secretions.
-                                    J Invest Dermatol. 2006
+                                    J Invest Dermatol. 2006.
                                 </p>
                             </div>
                     </div>
@@ -119,7 +120,7 @@
                                 </span>
                                 <p class="">
                                     Maggot therapy for treating diabetic foot ulcers unresponsive
-                                    to conventional therapy, Diabetes Care, 2003, 26 (2)
+                                    to conventional therapy, Diabetes Care, 2003, 26 (2).
                                 </p>
                             </div>
                     </div>
@@ -137,7 +138,7 @@
                                 </span>
                                 <p class="">
                                     Maggot versus conservative debridement therapy for the treatment
-                                    of pressure ulcers, Wound Repair and Regeneration, 2002, 10 (4)
+                                    of pressure ulcers, Wound Repair and Regeneration, 2002, 10 (4).
                                 </p>
                             </div>
                     </div>
@@ -150,12 +151,12 @@
                             <div class="item-cont span-17">
                                 <span class="">
                                     <a href="http://www.mendeley.com/research/destruction-of-bacteria-in-the-digestive-tract-of-the-maggot-of-lucilia-sericata-diptera-calliphoridae/" target="_blank">    
-                                        Mumcuoglu KY et al.
+                                        Mumcuoglu KY, Miller J, Mumcuoglu M, Friger M and Tarshis M.
                                     </a> 
                                 </span>
                                 <p class="">
                                     Destruction of Bacteria in the digestive Tract of the Maggot of Lucilia sericata.
-                                    Entomological Society of America 2001
+                                    Entomological Society of America 2001.
                                 </p>
                             </div>
                     </div>
