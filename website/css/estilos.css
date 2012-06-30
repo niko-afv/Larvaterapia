@@ -61,8 +61,8 @@ body{
 
 /*  Banner  */
 #banner{
-    background: url('../img/png/home/fondos_banner.jpg');
-    height: 399px;
+    background: url('../img/png/home/fondos_banner02.jpg');
+    height: 300px;
     position: relative;
 }
 #banner .container #slider div img{
@@ -70,6 +70,14 @@ body{
 }
 #banner-cont{
     background: url('../img/png/banner/banner.png');
+}
+#contenedor{
+    position: relative;
+    bottom: -68px;
+}
+#slider{
+    height: 232px;
+    bottom: -18px;
 }
 .bx-prev, .bx-next{
     display: none;
